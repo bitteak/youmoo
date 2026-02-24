@@ -1,30 +1,31 @@
 // Layout Default
-$container-width: 600px;
+$container-width: 650px; // Slightly wider to match hrescak.com feel
 $space: 1.5rem;
 
 .container {
   max-width: $container-width;
   margin: 0 auto;
-  padding: ($space * 2) 1rem;
+  padding: 4rem 1.5rem; // More top padding
 }
 
 header {
-  margin-bottom: ($space * 2);
+  margin-bottom: 2rem;
   
   h1 {
-    font-size: 3rem;
-    line-height: 1.2;
+    font-size: 1rem; // Minimalist h1
+    font-weight: 600;
     margin: 0;
   }
 }
 
 .intro {
-  margin-bottom: ($space * 2);
+  margin-bottom: 3rem;
   
   p {
-    margin-bottom: $space;
-    font-size: 1.25rem;
-    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.62;
+    margin-bottom: 1.5rem;
+    color: #0a0a0a; // Reinforce text color
   }
 }
 
@@ -32,23 +33,24 @@ header {
   display: flex;
   gap: 1rem;
   font-size: 1rem;
+  color: #0a0a0a;
   
   a {
-    color: #666;
-    text-decoration: none;
+    color: inherit;
+    text-decoration: underline;
+    text-decoration-color: rgba(10, 10, 10, 0.25);
     
     &:hover {
-      text-decoration: underline;
-      color: #333;
+      text-decoration-color: #0a0a0a;
     }
   }
 }
 
 .footer {
-  margin-top: ($space * 4);
-  padding-top: $space;
-  border-top: 1px solid #eee;
-  color: #999;
+  margin-top: 4rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  color: #666;
   font-size: 0.875rem;
   display: flex;
   justify-content: space-between;
