@@ -1,80 +1,87 @@
-/*
-  Base
-*/
+/* Base SCSS */
+
+$black: #000;
+$white: #fff;
+$space: 2rem;
+$bg-color: $white;
+$text-color: $black;
+$font-stack: -apple-system, BlinkMacSystemFont, "Helvetica Neue", Arial, sans-serif;
+
+* { box-sizing: border-box; }
+
+html {
+  font-size: 16px;
+  background-color: $bg-color;
+  color: $text-color;
+}
 
 body {
-  font-family: $serif-font-family;
-  font-size: 18px;
-  color: $body-color;
-  line-height: 1.75rem;
-}
-
-@media (max-width: $elements-responsive-width) {
-  body {
-    font-size: 14px;
-    line-height: 1.5rem;
-  }
-  body h1 {
-    font-size: 1.5rem;
-  }
-}
-
-h1{
-  font-size: 2rem;
-}
-
-h1 a {
-  text-decoration: none;
+  margin: 0;
+  font-family: $font-stack;
+  line-height: 1.4;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $sans-serif-font-family;
-  color: $dark-gray-color;
+  margin: 0 0 ($space / 2) 0;
+  font-weight: 900;
+  line-height: 1.1;
+  letter-spacing: -0.05em;
+  text-transform: uppercase;
+}
+
+h1 { font-size: 4rem; }
+h2 { font-size: 2.5rem; }
+h3 { font-size: 1.5rem; }
+
+p {
+  margin: 0 0 $space 0;
+  max-width: 65ch;
+  font-size: 1.25rem;
+  font-weight: 500;
 }
 
 a {
-  text-decoration: underline;
-  color: $dark-gray-color;
+  color: $black;
+  text-decoration: none;
+  border-bottom: 2px solid $black;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+
+  &:hover {
+    background: $black;
+    color: $white;
+  }
 }
 
-a:hover {
-  color: $link-color;
-  border-bottom: none;
-}
-
-img {
-  max-width: 100%;
-  height: auto;
-  border-radius: 5px;
-}
-
-blockquote {
-  margin: 10px 20px 10px;
-  padding: 0px 15px;
-  border-left: 0.25em solid $extra-light-gray-color;
-  color: $light-gray-color;
-  line-height: 1.5;
+ul, ol {
+  margin: 0 0 $space 0;
+  padding-left: $space;
 }
 
 hr {
-  border-top: 1px solid $extra-light-gray-color;
+  border: none;
+  border-top: 4px solid $black;
+  margin: $space 0;
 }
 
-/*
-  Tables
-*/
-
-table {
-  border-collapse: collapse;
-  margin-bottom: 30px;
-  width: 100%;
+blockquote {
+  border-left: 5px solid $black;
+  padding-left: $space;
+  margin: $space 0;
+  font-style: italic;
+  font-size: 1.5rem;
 }
 
-table, th, td {
-  border: 1px solid black;
+code {
+  font-family: "Menlo", "Consolas", monospace;
+  background: #eee;
+  padding: 0.2em 0.4em;
+  font-size: 0.9em;
 }
 
-th, td {
-  padding: 15px;
-  text-align: left;
+pre {
+  background: #f4f4f4;
+  padding: $space;
+  overflow-x: auto;
 }

@@ -1,113 +1,68 @@
-/*
-  Site container
-*/
+/* Default SCSS */
+@import "base";
 
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 615px;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: $space;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .content-container {
-  margin-bottom: 4rem;
+  flex-grow: 1;
+  padding: $space 0;
 }
 
-/*48em*/
-
-@media (max-width: $container-responsive-width) {
-  .container {
-    width: 90vw;
-  }
-}
-
-/*
-  Header
-*/
-
+/* Header */
 .header {
-  padding-top: 0.5rem;
-  padding-bottom: 0.5rem;
-  margin-bottom: 4rem;
-  font-family: $sans-serif-font-family;
+  padding: $space 0;
+  border-bottom: 5px solid $black;
+  margin-bottom: $space;
 }
 
-.header a:hover {
-  color:black;
-}
-
-.header-title a {
-  font-size: 2rem;
-  text-decoration: none;
-  color: $body-color;
+.header-title {
+  margin: 0;
+  font-size: 3rem;
+  letter-spacing: -0.05em;
+  font-weight: 900;
+  text-transform: uppercase;
 }
 
 .header-subtitle {
-  color: $light-gray-color;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #333;
 }
 
-/*
-  Menu
-*/
-
+/* Menu */
 .menu {
-  padding-top: 0.5rem;
-  display: block;
+  margin-top: 1rem;
+  font-family: $font-stack;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 0.9rem;
 }
 
-.menu-content {
-  float: left;
-}
-
-.menu-content a {
-  color: $light-gray-color;
-  font-size: 1rem;
-  padding-right: 10px;
-}
-
-.social-icons {
-  float: right;
-}
-
-.social-icons a {
-  color: $light-gray-color;
-  font-size: 1rem;
-}
-
-@media (max-width: $elements-responsive-width) {
-  .social-icons {
-    float: left;
-    padding-top: 0px;
-  }
-  .menu-content {
-    margin-bottom: 5px;
-  }
-}
-
-/*
-  Footer
-*/
-
-.footer {
-  color: $light-gray-color;
-  text-align: center;
-  margin: 2rem;
-}
-
-.footer a {
-  color: $light-gray-color;
-  padding: 10px;
+.menu a {
+  margin-right: 1.5rem;
+  color: $black;
   text-decoration: none;
+  border-bottom: 2px solid transparent;
+
+  &:hover {
+    border-bottom: 2px solid $black;
+  }
 }
 
-.footer a:hover {
-  color: $dark-gray-color;
-}
-
-.footer-description {
-  display: block;
-  margin-top:3px;
-  margin-bottom: 1rem;
-  color: $light-gray-color;
-  font-family: $sans-serif-font-family;
-  font-size:0.8rem;
+/* Footer */
+.footer {
+  margin-top: 2rem;
+  padding-top: $space;
+  border-top: 5px solid $black;
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
 }
