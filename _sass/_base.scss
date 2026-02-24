@@ -1,10 +1,14 @@
-// Minimalist Base - Inspired by hrescak.com
+// Minimalist Base - Inspired by hrescak.com (Dark Mode)
 $font-family: "Inter", "inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-$bg-color: #f8f8f6;
-$text-color: #0a0a0a;
-$link-color: #0a0a0a;
-$link-underline-color: rgba(10, 10, 10, 0.25);
-$container-width: 600px; // Kept as is, looks standard for this style
+
+// Colors from user request
+$bg-color: #222222;       // Dark Charcoal
+$text-color: #F2F2F2;     // Off-White (Primary Text)
+$secondary-color: #888888;// Medium Gray (Secondary Text)
+$link-color: #F2F2F2;     // Off-White (Links)
+$link-underline-color: rgba(242, 242, 242, 0.25); // 25% opacity of primary text
+
+$container-width: 600px;
 $space: 1.5rem;
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap');
@@ -14,7 +18,7 @@ html, body {
   padding: 0;
   font-family: $font-family;
   font-size: 16px;
-  line-height: 1.62; // 25.92px / 16px
+  line-height: 1.62;
   color: $text-color;
   background-color: $bg-color;
   -webkit-font-smoothing: antialiased;
@@ -27,12 +31,12 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 1.2;
 }
 
-h1 { font-size: 1rem; } // Matches the 16px from hrescak.com analysis
+h1 { font-size: 1rem; }
 h2 { font-size: 1rem; }
 h3 { font-size: 1rem; }
 
 p {
-  margin: 0 0 1.5rem 0; // 24px margin
+  margin: 0 0 1.5rem 0;
 }
 
 a {
@@ -55,22 +59,27 @@ ul, ol {
 
 hr {
   border: 0;
-  border-top: 1px solid #eee;
+  border-top: 1px solid #444; // Darker border for dark mode
   margin: ($space * 2) 0;
 }
 
 blockquote {
-  border-left: 3px solid #eee;
+  border-left: 3px solid #444;
   padding-left: 1rem;
   margin: $space 0;
-  color: #666;
+  color: $secondary-color;
   font-style: italic;
 }
 
 code {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 0.9em;
-  background-color: #eaeaea;
+  background-color: #333; // Darker code block background
+  color: #ddd;
   padding: 0.2em 0.4em;
   border-radius: 3px;
+}
+
+.secondary {
+  color: $secondary-color;
 }

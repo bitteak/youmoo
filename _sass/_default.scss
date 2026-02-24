@@ -1,18 +1,18 @@
 // Layout Default
-$container-width: 650px; // Slightly wider to match hrescak.com feel
+$container-width: 650px;
 $space: 1.5rem;
 
 .container {
   max-width: $container-width;
   margin: 0 auto;
-  padding: 4rem 1.5rem; // More top padding
+  padding: 4rem 1.5rem;
 }
 
 header {
   margin-bottom: 2rem;
   
   h1 {
-    font-size: 1rem; // Minimalist h1
+    font-size: 1rem;
     font-weight: 600;
     margin: 0;
   }
@@ -25,7 +25,7 @@ header {
     font-size: 1rem;
     line-height: 1.62;
     margin-bottom: 1.5rem;
-    color: #0a0a0a; // Reinforce text color
+    color: #F2F2F2; // Primary text color
   }
 }
 
@@ -33,15 +33,15 @@ header {
   display: flex;
   gap: 1rem;
   font-size: 1rem;
-  color: #0a0a0a;
+  color: #F2F2F2; // Primary text color for links
   
   a {
     color: inherit;
     text-decoration: underline;
-    text-decoration-color: rgba(10, 10, 10, 0.25);
+    text-decoration-color: rgba(242, 242, 242, 0.25);
     
     &:hover {
-      text-decoration-color: #0a0a0a;
+      text-decoration-color: #F2F2F2;
     }
   }
 }
@@ -49,8 +49,8 @@ header {
 .footer {
   margin-top: 4rem;
   padding-top: 1.5rem;
-  border-top: 1px solid rgba(0,0,0,0.1);
-  color: #666;
+  border-top: 1px solid rgba(255,255,255,0.1);
+  color: #888888; // Secondary text color for footer
   font-size: 0.875rem;
   display: flex;
   justify-content: space-between;
