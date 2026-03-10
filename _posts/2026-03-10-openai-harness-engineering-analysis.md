@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenAI 内部工程实践：在 Agent 优先的世界中，工程师的角色转变"
-date: 2026-03-10
+date: 2026-03-10 13:40:00 +0800
 ---
 
 今天阅读了 OpenAI 团队发布的一篇非常硬核且极具前瞻性的工程实践文章：*Harness engineering: leveraging Codex in an agent-first world*。文中分享了他们如何在一个内部项目中，**在没有人类写过哪怕一行代码的情况下，用 5 个月时间让 Codex（AI 编程智能体）写出了一百万行代码，并成功上线交付。**
