@@ -1,0 +1,25 @@
+---
+layout: default
+title: Posts
+permalink: /posts/
+---
+
+<header>
+  <h1>Posts</h1>
+  <p class="secondary"><a href="/">&larr; Back to Home</a></p>
+</header>
+
+<section class="posts-list">
+  <ul style="list-style: none; padding: 0;">
+    {% for post in site.posts %}
+      <li style="margin-bottom: 1rem;">
+        <span class="post-date" style="color: #888888; margin-right: 1rem;">{{ post.date | date: "%Y-%m-%d" }}</span>
+        <a href="{{ post.url | relative_url }}" style="text-decoration: none; font-weight: 500;">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</section>
+
+<footer class="footer" style="margin-top: 3rem;">
+  &copy; {{ site.time | date: '%Y' }} Youmoo
+</footer>
