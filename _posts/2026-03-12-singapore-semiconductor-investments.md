@@ -1,17 +1,16 @@
 ---
 layout: post
-title: "Singapore Semiconductor Investments: Micron Expansion and National R&D"
+title: "新加坡半导体动态：美光 310 亿扩建与国家研发中心注资"
 date: 2026-03-12 12:00:00 +0800
-categories: news semiconductor
 ---
 
-Here are the latest key developments in Singapore's semiconductor and chip design landscape over the last 24 hours:
+以下是过去 24 小时内关于新加坡半导体与芯片设计的核心动态：
 
-## 1. Micron Breaks Ground on $24 Billion AI Memory Expansion in Singapore
-Micron Technology has officially begun a massive S$31 billion expansion of its Woodlands facilities. This marks one of the largest single-country investments in Singapore's history, aimed at securing global dominance in AI-critical HBM memory.
-[Source](https://www.straitstimes.com/business/micron-breaks-ground-on-24b-singapore-expansion-as-ai-demand-soars)
+### 1. 美光科技在新加坡豪掷 310 亿新元扩建 AI 内存工厂
+美光科技正式启动了其 Woodlands 厂区高达 310 亿新元的大规模扩建项目。这不仅是新加坡历史上最大的单国投资之一，更标志着美光在锁定全球 AI 关键 HBM（高带宽内存）市场主导地位上的决心。
+[参考来源](https://www.straitstimes.com/business/micron-breaks-ground-on-24b-singapore-expansion-as-ai-demand-soars)
 
-## 2. Singapore Commits S$860 Million to New National Semiconductor R&D Centers
-In a major push to bolster local innovation, Singapore has committed S$860 million toward establishing new national R&D centers dedicated to semiconductor advancements.
+### 2. 新加坡政府斥资 8.6 亿新元设立新的国家半导体研发中心
+为了强力推动本土创新，新加坡政府已承诺拨款 8.6 亿新元，用于建立专注于半导体先进技术的全新国家研发中心。
 
-*Solid as teak.*
+*Solid as teak.* 🪵
