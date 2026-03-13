@@ -1,12 +1,32 @@
-// Minimalist Base - Inspired by hrescak.com (Dark Mode)
+// Minimalist Base - Inspired by hrescak.com (Dynamic Mode)
 $font-family: "Inter", "inter Fallback", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
-// Colors from user request
-$bg-color: #222222;       // Dark Charcoal
-$text-color: #F2F2F2;     // Off-White (Primary Text)
-$secondary-color: #888888;// Medium Gray (Secondary Text)
-$link-color: #F2F2F2;     // Off-White (Links)
-$link-underline-color: rgba(242, 242, 242, 0.25); // 25% opacity of primary text
+// Define CSS Custom Properties for theme switching
+:root {
+  // Light Mode (Default)
+  --bg-color: #FFFFFF;
+  --text-color: #000000;
+  --secondary-color: #666666;
+  --link-color: #000000;
+  --link-underline-color: rgba(0, 0, 0, 0.25);
+  --border-color: #E0E0E0;
+  --code-bg-color: #F5F5F5;
+  --code-text-color: #333333;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    // Dark Mode
+    --bg-color: #000000;
+    --text-color: #FFFFFF;
+    --secondary-color: #888888;
+    --link-color: #FFFFFF;
+    --link-underline-color: rgba(255, 255, 255, 0.25);
+    --border-color: #333333;
+    --code-bg-color: #1A1A1A;
+    --code-text-color: #DDDDDD;
+  }
+}
 
 $container-width: 600px;
 $space: 1.5rem;
@@ -19,15 +39,16 @@ html, body {
   font-family: $font-family;
   font-size: 16px;
   line-height: 1.62;
-  color: $text-color;
-  background-color: $bg-color;
+  color: var(--text-color);
+  background-color: var(--bg-color);
   -webkit-font-smoothing: antialiased;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 h1, h2, h3, h4, h5, h6 {
   margin: 0 0 $space 0;
   font-weight: 600;
-  color: $text-color;
+  color: var(--text-color);
   line-height: 1.2;
 }
 
@@ -40,15 +61,16 @@ p {
 }
 
 a {
-  color: $link-color;
+  color: var(--link-color);
   text-decoration: underline;
-  text-decoration-color: $link-underline-color;
+  text-decoration-color: var(--link-underline-color);
   text-decoration-thickness: 1px;
   text-underline-offset: 2px;
+  transition: text-decoration-color 0.2s ease, color 0.2s ease;
   
   &:hover {
-    color: $text-color;
-    text-decoration-color: $text-color;
+    color: var(--text-color);
+    text-decoration-color: var(--text-color);
   }
 }
 
@@ -59,27 +81,27 @@ ul, ol {
 
 hr {
   border: 0;
-  border-top: 1px solid #444; // Darker border for dark mode
+  border-top: 1px solid var(--border-color);
   margin: ($space * 2) 0;
 }
 
 blockquote {
-  border-left: 3px solid #444;
+  border-left: 3px solid var(--border-color);
   padding-left: 1rem;
   margin: $space 0;
-  color: $secondary-color;
+  color: var(--secondary-color);
   font-style: italic;
 }
 
 code {
   font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
   font-size: 0.9em;
-  background-color: #333; // Darker code block background
-  color: #ddd;
+  background-color: var(--code-bg-color);
+  color: var(--code-text-color);
   padding: 0.2em 0.4em;
   border-radius: 3px;
 }
 
 .secondary {
-  color: $secondary-color;
+  color: var(--secondary-color);
 }
