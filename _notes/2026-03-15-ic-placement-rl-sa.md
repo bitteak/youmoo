@@ -4,9 +4,9 @@ title: "Paper Analysis: Placement in ICs using Cyclic RL and Simulated Annealing
 ---
 
 ## Overview
-Recent advancements in learning-based algorithms have sparked new interest in solving combinatorial optimization problems, like IC placement. While you previously mentioned "Graph Attention Networks", the specific arXiv paper ID provided (`2011.07577`) actually points to a highly influential related work by researchers from CMU and Cadence: **"Placement in Integrated Circuits using Cyclic Reinforcement Learning and Simulated Annealing"**.
+Recent advancements in learning-based algorithms have sparked new interest in solving combinatorial optimization problems, like IC placement. This note provides a detailed breakdown of the highly influential paper **"Placement in Integrated Circuits using Cyclic Reinforcement Learning and Simulated Annealing"** by researchers from CMU and Cadence. 
 
-Here is a detailed breakdown of their approach, combining the rapid initialization of RL with the local optimization power of Simulated Annealing (SA).
+Their approach combines the rapid initialization of Reinforcement Learning (RL) with the local optimization power of Simulated Annealing (SA).
 
 ## 1. The Core Problem & Motivation
 Placement is a critical, time-consuming step in physical IC design. Traditional methods (partition-based, analytical, annealing-based) face challenges:
