@@ -10,8 +10,13 @@
     {% seo %}
   </head>
   <body>
-    <div class="container">
-      {{ content }}
+    <div class="container" style="min-height: 100vh; display: flex; flex-direction: column;">
+      <div style="flex: 1;">
+        {{ content }}
+      </div>
+      <footer style="text-align: center; padding: 2rem 0; margin-top: 2rem; border-top: 1px solid #333; font-size: 0.9rem;">
+        <a href="{{ '/' | relative_url }}" style="color: #888; text-decoration: none;">&copy; 2026 Youmoo</a>
+      </footer>
     </div>
   </body>
 </html>
