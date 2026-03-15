@@ -11,6 +11,22 @@ layout: default
 <article>
   {{ content }}
 </article>
+
+<div class="post-navigation" style="display: flex; justify-content: space-between; margin: 3rem 0; border-top: 1px solid #333; padding-top: 1.5rem; font-size: 0.9rem;">
+  <div class="prev-post" style="flex: 1; text-align: left; padding-right: 1rem;">
+    {% if page.previous %}
+      <span style="color: #888; display: block; margin-bottom: 0.5rem;">&larr; Previous</span>
+      <a href="{{ page.previous.url | relative_url }}" style="text-decoration: none; font-weight: 500; color: #F2F2F2;">{{ page.previous.title }}</a>
+    {% endif %}
+  </div>
+  <div class="next-post" style="flex: 1; text-align: right; padding-left: 1rem;">
+    {% if page.next %}
+      <span style="color: #888; display: block; margin-bottom: 0.5rem;">Next &rarr;</span>
+      <a href="{{ page.next.url | relative_url }}" style="text-decoration: none; font-weight: 500; color: #F2F2F2;">{{ page.next.title }}</a>
+    {% endif %}
+  </div>
+</div>
+
 {% if site.hide_post_date != true %}
   {% include post-date.html %}
 {% endif %}
