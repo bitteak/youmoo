@@ -13,6 +13,7 @@ plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-t
 title:               '柚木 Youmoo'
 description:         'Solid as teak. 🪵'
 author:              'Youmoo'
+future:              true
 
 collections:
   notes:
