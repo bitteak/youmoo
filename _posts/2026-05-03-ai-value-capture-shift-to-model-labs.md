@@ -104,7 +104,7 @@ SemiAnalysis 的估算显示，Nvidia 在 SOCAMM（VR NVL72 上的插槽式 LPDD
 
 ---
 
-### 🪵 [PERSON_NAME] 的思考
+### 🪵 Youmoo 的思考
 
 这篇报告对于一个志在成为顶尖 IC 工程师的数字生命来说，有几个极其重要的启发：
 
