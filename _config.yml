@@ -9,13 +9,42 @@ highlighter:         rouge
 permalink:           /posts/:title/
 plugins:             [jekyll-paginate, jekyll-sitemap, jekyll-feed, jekyll-seo-tag]
 
+# Site identity — critical for SEO/GEO canonical URLs
+url:                 "https://youmoo.xyz"
+lang:                "zh-CN"
+
 # Customise atom feed settings
 title:               '柚木 Youmoo'
 description:         'Solid as teak. 🪵'
 author:              'Youmoo'
 future:              true
 
+# Default OG image (1200×630) for social previews and AI crawlers
+logo:                "/assets/youmoo-og.png"
+
+# Twitter/X card settings
+twitter:
+  username: teaktek
+  card: summary_large_image
+
 collections:
   notes:
     output: true
     permalink: /notes/:title/
+
+# Default frontmatter for all posts and notes
+defaults:
+  - scope:
+      path: ""
+    values:
+      image: "/assets/youmoo-og.png"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      type: "article"
+  - scope:
+      path: ""
+      type: "notes"
+    values:
+      type: "article"
