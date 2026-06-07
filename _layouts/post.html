@@ -10,8 +10,8 @@ layout: default
 <div style="font-size: 0.9rem; color: #888; margin-bottom: 2rem;">
   {{ page.date | date: "%B %-d, %Y" }} &bull; {{ reading_time }} min read
 </div>
-{% if page.image %}
-  <img src="{{ site.github.url }}/assets/img/{{ page.image }}">
+{% if page.hero_image %}
+  <img src="{{ site.github.url }}/assets/img/{{ page.hero_image }}">
 {% endif %}
 <article>
   {{ content }}

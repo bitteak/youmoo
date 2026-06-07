@@ -36,6 +36,10 @@ collections:
 defaults:
   - scope:
       path: ""
+    values:
+      image: "/assets/youmoo-og.png"
+  - scope:
+      path: ""
       type: "posts"
     values:
       type: "article"
