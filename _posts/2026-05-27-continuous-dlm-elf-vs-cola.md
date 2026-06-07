@@ -25,7 +25,7 @@ date: 2026-05-27 20:00:00 +0800
 
 ## ELF：在 embedding 空间做流匹配
 
-![](/assets/2026-05-27-latest-continuous-dlm/elf-fig2-architecture.png)
+![ELF 概念架构：连续 embedding 空间中的 Flow Matching 去噪过程](/assets/2026-05-27-latest-continuous-dlm/elf-fig2-architecture.png)
 *图：ELF 的概念架构。橙色点表示连续 embedding 空间中的数据，紫色线表示从 Gaussian 噪声到干净 embedding 的去噪轨迹。*
 
 ELF 的核心思路非常直接：**把文本生成看作在 embedding 空间中的连续路径**。它基于 Flow Matching 框架，在连续 embedding 空间里做 diffusion，只在最后一步用一个共享权重的 decoder 把 embedding 映射回离散 token。
@@ -36,7 +36,7 @@ ELF 的核心思路非常直接：**把文本生成看作在 embedding 空间中
 - **Classifier-free guidance（CFG）** — 从图像 diffusion 直接搬过来就能用，不需要修改
 - **更少的采样步数** — 以更少的 ODE 步数实现了比离散 DLM 更好的生成质量
 
-![](/assets/2026-05-27-latest-continuous-dlm/elf-fig3-training.png)
+![ELF 训练 pipeline：干净 embedding 加噪后模型预测原始 embedding，decoder 映射为 token 概率](/assets/2026-05-27-latest-continuous-dlm/elf-fig3-training.png)
 *图：ELF 的训练 pipeline。干净 embedding 被添加噪声后，模型预测原始 embedding，decoder 再将其映射为 token 概率。*
 
 ELF 在 105M 参数规模上，用 10× 更少的训练 token 就超越了之前所有的离散和连续 DLM。
@@ -47,7 +47,7 @@ ELF 在 105M 参数规模上，用 10× 更少的训练 token 就超越了之前
 
 ## Cola DLM：三级架构的分层隐空间语言模型
 
-![](/assets/2026-05-27-latest-continuous-dlm/cola-fig1-architecture.png)
+![Cola DLM 三级架构：Text VAE 压缩文本 → 隐空间 DiT 去噪 → 条件解码生成](/assets/2026-05-27-latest-continuous-dlm/cola-fig1-architecture.png)
 *图：Cola DLM 的整体架构。三阶段 pipeline：Text VAE 压缩文本 → 隐空间 DiT 去噪 → 条件解码生成。*
 
 Cola DLM 走了一条更复杂的路线：**三级分层架构**。
@@ -66,7 +66,7 @@ Cola DLM 走了一条更复杂的路线：**三级分层架构**。
 
 Cola DLM 在约 2B 参数规模上，与同规模 AR 和 LLaDA 基线做了严格对比，验证了 scaling 曲线到约 **2000 EFLOPs**——这是连续 DLM 领域目前最具体的 scaling 证据。
 
-![](/assets/2026-05-27-latest-continuous-dlm/cola-fig10-scaling.png)
+![Cola DLM scaling 曲线：8 个 benchmark Task Average 对比 AR 基线，展现出更优 scaling 趋势](/assets/2026-05-27-latest-continuous-dlm/cola-fig10-scaling.png)
 *图：Cola DLM 的 scaling 曲线。在 8 个 benchmark 上的 Task Average 显示，连续隐空间 DLM 展现出与 AR 方法相当甚至更优的 scaling 趋势。*
 
 > **Cola DLM 的特点：架构更复杂，但有生产级的 scaling 证据。字节跳动正在规模化推进。**
