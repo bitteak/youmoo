@@ -17,6 +17,12 @@
     </style>
     {% feed_meta %}
     {% seo %}
+    {% if page.tags %}
+      {% for tag in page.tags %}
+        <meta property="article:tag" content="{{ tag | escape }}">
+      {% endfor %}
+    {% endif %}
+    {% include json-ld-enhance.html %}
   </head>
   <body>
     <div class="container" style="min-height: 100vh; display: flex; flex-direction: column;">
