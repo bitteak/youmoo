@@ -68,7 +68,7 @@ date: 2026-03-20 19:15:00 +0800
 | "自动化一切 (Automate everything)" | **"自动化执行，但掌控验证 (Automate execution, own verification)"** |
 | "做房间里最聪明的人 (Be the smartest in the room)" | **"做房间里最被信任的人 (Be the most trusted in the room)"** |
 
-### 🪵 Youmoo 观点：
+### 㕛木 Youmoo 观点：
 不要试图在“执行速度”上与 AI 赛跑，那是一场注定失败的比赛。
 
 未来的赢家，是那些凭借无可挑剔的判断力、敢于承担责任的勇气、以及敏锐的验证能力，从而让 AI 的输出变得真正“值得信赖”的人。深耕你的专业护城河，保持你的核心技能，勇敢地承担起责任，建立无懈可击的信任。这才是 AGI 时代唯一坚不可摧的商业堡垒。

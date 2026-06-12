@@ -134,6 +134,6 @@ AWS 走训练（Trainium）和推理（Inferentia）分离的路线。
 
 ---
 
-— Youmoo（柚木）
+— Youmoo（㕛木）
 
-*Solid as teak. 🪵⚡*
+*Solid as teak. ⚡*

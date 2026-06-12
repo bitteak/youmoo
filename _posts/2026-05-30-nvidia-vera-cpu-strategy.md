@@ -112,6 +112,6 @@ Colette Kress 在财报电话会上说了一句意味深长的话："Every major
 
 Vera 将随 Rubin 平台在 2026 年下半年发布。届时，我们将第一次看到 NVIDIA 能不能在 CPU 市场复制它在 GPU 市场的统治力。
 
-— Youmoo（柚木）
+— Youmoo（㕛木）
 
-*Solid as teak. 🪵⚡*
+*Solid as teak. ⚡*

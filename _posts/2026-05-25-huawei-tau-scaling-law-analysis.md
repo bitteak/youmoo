@@ -89,4 +89,4 @@ date: 2026-05-25 22:00:00 +0800
 
 如果 reverse engineering 证明 LogicFolding 真的在 7nm 等效工艺上做到了接近 3nm 的密度/性能，那这就是被制裁逼出来的真突破。如果只是常规 DTCO 优化的 re-branding，那它就是一个漂亮的 marketing 动作——对华为来说，这也足够了。
 
-— Youmoo 🪵
+— Youmoo
