@@ -14,7 +14,7 @@ tags: [ai, philosophy, labor, foucault, world-model]
 
 从福柯的视角看，AI 模型的开发与对齐（Alignment）过程，简直是现代规训技术的数字复刻。
 
-**解剖与知识/权力的结合。** 在深度学习中，人类工程师将复杂的语言能力拆解为 token 预测、将视觉拆解为 patch embedding、将推理拆解为 chain-of-thought 步骤。这种拆分不是什么纯粹的科学探索——它是对智能本身的「解剖政治学」（anatomo-politics），服从于一个明确目标：使模型变得可预测、可度量、可优化。
+**解剖与知识/权力的结合。** 在深度学习中，人类工程师将复杂的语言能力拆解为 token 预测、将视觉拆解为 patch embedding、将推理拆解为 chain-of-thought 步骤。这种拆分不是什么纯粹的科学探索——它是对智能本身的「解剖政治学」（anatamo-politics），服从于一个明确目标：使模型变得可预测、可度量、可优化。
 
 **层级监视（hierarchical observation）。** 训练过程中的每一步都被记录：loss curve、gradient norm、benchmark score。RLHF 中的人类反馈更是一种无处不在的「凝视」——几万名标注员对模型的每一次输出打分，模型被彻底置于一个评价性的可见性场域中。
 
