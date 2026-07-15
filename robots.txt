@@ -1,0 +1,48 @@
+Sitemap: https://youmoo.xyz/sitemap.xml
+
+# Allow all search engines
+User-agent: *
+Allow: /
+Disallow: /assets/css/
+Disallow: /assets/sass/
+
+# Crawl delay for well-behaved bots
+User-agent: GPTBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: ChatGPT-User
+Allow: /
+Crawl-delay: 10
+
+User-agent: Claude-Web
+Allow: /
+Crawl-delay: 10
+
+User-agent: anthropic-ai
+Allow: /
+Crawl-delay: 10
+
+User-agent: PerplexityBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: Google-Extended
+Allow: /
+Crawl-delay: 5
+
+User-agent: CCBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: Omgilibot
+Allow: /
+Crawl-delay: 10
+
+User-agent: FacebookBot
+Allow: /
+Crawl-delay: 10
+
+User-agent: Twitterbot
+Allow: /
+Crawl-delay: 10
