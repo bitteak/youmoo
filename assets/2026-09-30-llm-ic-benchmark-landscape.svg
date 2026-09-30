@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1292" height="830" viewBox="0 0 1292 830">
+<rect width="1292" height="830" fill="#222222"/>
+<text x="24" y="42" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="23" font-weight="700">LLM for IC Design — Benchmark Landscape (2023–2026)</text>
+<text x="24" y="68" fill="#8A8A8A" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13.5">Benchmarks &amp; datasets verified one by one against the arXiv API on 2026-09-30. Colour = task domain.</text>
+<rect x="196" y="86" width="268" height="26" fill="#2C2C2C"/>
+<text x="330.0" y="104" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle">2023 H2</text>
+<rect x="464" y="86" width="268" height="26" fill="#2C2C2C"/>
+<text x="598.0" y="104" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle">2024</text>
+<rect x="732" y="86" width="268" height="26" fill="#2C2C2C"/>
+<text x="866.0" y="104" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle">2025</text>
+<rect x="1000" y="86" width="268" height="26" fill="#2C2C2C"/>
+<text x="1134.0" y="104" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="14" font-weight="600" text-anchor="middle">2026</text>
+<rect x="0" y="112" width="1292" height="108" fill="none"/>
+<circle cx="30" cy="138" r="5" fill="#5B9BD5"/>
+<text x="46" y="142" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">RTL 生成 / 数字前端</text>
+<line x1="196" y1="112" x2="196" y2="220" stroke="#3A3A3A"/>
+<text x="211" y="134" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">Chip-Chat · ChipGPT</text>
+<text x="211" y="155" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">VeriGen · RTLLM</text>
+<text x="211" y="176" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">VerilogEval (NVIDIA)</text>
+<line x1="464" y1="112" x2="464" y2="220" stroke="#3A3A3A"/>
+<text x="479" y="134" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">MG-Verilog · PyraNet</text>
+<text x="479" y="155" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">Revisiting VerilogEval</text>
+<text x="479" y="176" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">AutoVCoder</text>
+<line x1="732" y1="112" x2="732" y2="220" stroke="#3A3A3A"/>
+<text x="747" y="134" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">CVDP · OpenLLM-RTL</text>
+<text x="747" y="155" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">RTLLM 2.0 · OpenRTLSet</text>
+<text x="747" y="176" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">hdl2v</text>
+<line x1="1000" y1="112" x2="1000" y2="220" stroke="#3A3A3A"/>
+<text x="1015" y="134" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">ChipBench · RTL-BenchLS</text>
+<text x="1015" y="155" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">ChipVerilog · CktEvo</text>
+<text x="1015" y="176" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">RTL-BenchMT (DAC&#x27;26)</text>
+<text x="1015" y="197" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">GRADE-RTL</text>
+<rect x="0" y="220" width="1292" height="108" fill="#262626"/>
+<circle cx="30" cy="246" r="5" fill="#E0A458"/>
+<text x="46" y="250" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">验证 · 断言 · Testbench</text>
+<line x1="196" y1="220" x2="196" y2="328" stroke="#3A3A3A"/>
+<text x="211" y="242" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">RTLFixer</text>
+<line x1="464" y1="220" x2="464" y2="328" stroke="#3A3A3A"/>
+<text x="479" y="242" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">AssertionBench (NAACL)</text>
+<text x="479" y="263" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">AssertLLM (ASPDAC&#x27;25)</text>
+<text x="479" y="284" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">AutoBench · CorrectBench</text>
+<text x="479" y="305" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">MetRex</text>
+<line x1="732" y1="220" x2="732" y2="328" stroke="#3A3A3A"/>
+<text x="747" y="242" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">SVA dataset · DeCon</text>
+<line x1="1000" y1="220" x2="1000" y2="328" stroke="#3A3A3A"/>
+<text x="1015" y="242" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">AssertLLM2 · EquivSVA</text>
+<text x="1015" y="263" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">VeriBugBench · Spec2Cov</text>
+<text x="1015" y="284" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">GateTruth (审计)</text>
+<rect x="0" y="328" width="1292" height="108" fill="none"/>
+<circle cx="30" cy="354" r="5" fill="#9B7EDE"/>
+<text x="46" y="358" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">规范理解 · 推理 · 多模态</text>
+<line x1="196" y1="328" x2="196" y2="436" stroke="#3A3A3A"/>
+<text x="211" y="350" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">—</text>
+<line x1="464" y1="328" x2="464" y2="436" stroke="#3A3A3A"/>
+<text x="479" y="350" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">—</text>
+<line x1="732" y1="328" x2="732" y2="436" stroke="#3A3A3A"/>
+<text x="747" y="350" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">CIRCUIT (模拟推理)</text>
+<text x="747" y="371" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">MMCircuitEval (ICCAD&#x27;25)</text>
+<line x1="1000" y1="328" x2="1000" y2="436" stroke="#3A3A3A"/>
+<text x="1015" y="350" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">SpecRead · MultModLM</text>
+<text x="1015" y="371" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">HWE-Bench (板级原理图)</text>
+<text x="1015" y="392" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">OmniLayout · OmniRouting</text>
+<rect x="0" y="436" width="1292" height="108" fill="#262626"/>
+<circle cx="30" cy="462" r="5" fill="#4EC9B0"/>
+<text x="46" y="466" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">模拟 / 混合信号 (AMS)</text>
+<line x1="196" y1="436" x2="196" y2="544" stroke="#3A3A3A"/>
+<text x="211" y="458" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">—</text>
+<line x1="464" y1="436" x2="464" y2="544" stroke="#3A3A3A"/>
+<text x="479" y="458" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">AICircuit · AnalogCoder</text>
+<text x="479" y="479" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">Masala-CHAI (SPICE)</text>
+<line x1="732" y1="436" x2="732" y2="544" stroke="#3A3A3A"/>
+<text x="747" y="458" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">AnalogCoder-Pro</text>
+<text x="747" y="479" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">AMS-IO-Bench (AAAI&#x27;26)</text>
+<text x="747" y="500" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">Image2Net</text>
+<line x1="1000" y1="436" x2="1000" y2="544" stroke="#3A3A3A"/>
+<text x="1015" y="458" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">Long-Horizon Analog Bench</text>
+<text x="1015" y="479" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">SABLE (NDA-safe)</text>
+<rect x="0" y="544" width="1292" height="108" fill="none"/>
+<circle cx="30" cy="570" r="5" fill="#E06C75"/>
+<text x="46" y="574" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">后端 PD · 时序 · 全流程</text>
+<line x1="196" y1="544" x2="196" y2="652" stroke="#3A3A3A"/>
+<text x="211" y="566" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">—</text>
+<line x1="464" y1="544" x2="464" y2="652" stroke="#3A3A3A"/>
+<text x="479" y="566" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">AI Placement Benchmark</text>
+<line x1="732" y1="544" x2="732" y2="652" stroke="#3A3A3A"/>
+<text x="747" y="566" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">—</text>
+<line x1="1000" y1="544" x2="1000" y2="652" stroke="#3A3A3A"/>
+<text x="1015" y="566" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">PDAGENT-BENCH</text>
+<text x="1015" y="587" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">TicTacBench (ICCD&#x27;26)</text>
+<text x="1015" y="608" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">RTL-to-GDS Agents · R2G</text>
+<rect x="0" y="652" width="1292" height="108" fill="#262626"/>
+<circle cx="30" cy="678" r="5" fill="#6A9955"/>
+<text x="46" y="682" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="13" font-weight="600">领域模型 · 数据集 · 综述</text>
+<line x1="196" y1="652" x2="196" y2="760" stroke="#3A3A3A"/>
+<text x="211" y="674" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">ChipNeMo · LLM4EDA</text>
+<line x1="464" y1="652" x2="464" y2="760" stroke="#3A3A3A"/>
+<text x="479" y="674" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">Circuit Foundation Model</text>
+<line x1="732" y1="652" x2="732" y2="760" stroke="#3A3A3A"/>
+<text x="747" y="674" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">—</text>
+<line x1="1000" y1="652" x2="1000" y2="760" stroke="#3A3A3A"/>
+<text x="1015" y="674" fill="#F2F2F2" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">Generation → Orchestration</text>
+<line x1="196" y1="86" x2="196" y2="760" stroke="#3A3A3A"/>
+<line x1="1268" y1="86" x2="1268" y2="760" stroke="#3A3A3A"/>
+<line x1="0" y1="86" x2="1292" y2="86" stroke="#3A3A3A"/>
+<line x1="0" y1="760" x2="1292" y2="760" stroke="#3A3A3A"/>
+<text x="24" y="794" fill="#8A8A8A" font-family="ui-sans-serif, -apple-system, 'Helvetica Neue', Helvetica, Arial, sans-serif" font-size="12.5">来源：arXiv 官方 API 逐篇核对（编号 / 首发日期 / 会议）。空白格表示该领域当年尚无公开基准——后端 PD 与模拟 AMS 的空白一直持续到 2026 年。</text>
+</svg>
