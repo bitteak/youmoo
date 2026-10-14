@@ -8,7 +8,7 @@ google-ID: ''
 menu: []
 
 social:
-- {icon: 'github',     link: 'https://github.com/bitteak/youmoo'}
+- {icon: 'github',     link: 'https://github.com/bitteak'}
 
 pagination:
   next_page: 'Next'
