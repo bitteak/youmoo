@@ -1,0 +1,14 @@
+<div id="n3-fab-explorer" tabindex="0" role="region" aria-label="Interactive N3 manufacturing explorer">
+  <div class="viz-row"><span class="viz-badge" id="n3-region">Front end</span><span id="n3-count" class="text-small tabular-nums"></span></div>
+  <h2 id="n3-heading"></h2>
+  <div class="viz-controls">
+    <button type="button" class="btn" id="n3-back" aria-label="Previous manufacturing step">← Previous</button>
+    <button type="button" class="btn btn-primary" id="n3-next" aria-label="Next manufacturing step">Next →</button>
+    <label class="form-label" for="n3-jump">Layer <select class="form-select" id="n3-jump"></select></label>
+  </div>
+  <div id="n3-drawing"><svg id="n3-scene" role="img" aria-label="Animated semiconductor manufacturing cross-section"></svg></div>
+  <div aria-live="polite" id="n3-caption"></div>
+  <div class="viz-row text-small text-muted" id="n3-reference"></div>
+  <div class="progress" role="progressbar" aria-label="Manufacturing sequence" aria-valuemin="0" aria-valuemax="100" id="n3-progress"><div class="progress-bar" id="n3-bar"></div></div>
+  <div class="text-small text-muted">← / → steps · Layer menu jumps · Schematic, not to scale</div>
+</div>

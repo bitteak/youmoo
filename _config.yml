@@ -28,6 +28,9 @@ twitter:
   card: summary_large_image
 
 collections:
+  projects:
+    output: true
+    permalink: /projects/:name/
   notes:
     output: true
     permalink: /notes/:title/

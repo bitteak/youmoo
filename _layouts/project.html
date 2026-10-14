@@ -1,0 +1,11 @@
+---
+layout: default
+---
+
+<article class="project-page" lang="{{ page.lang | default: site.lang }}">
+  <header>
+    <h1>{{ page.title | escape }}</h1>
+    <p class="secondary"><a href="{{ '/projects/' | relative_url }}">&larr; Back to Projects</a></p>
+  </header>
+  {{ content }}
+</article>

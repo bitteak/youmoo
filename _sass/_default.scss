@@ -31,7 +31,8 @@ header {
 
 .nav-links {
   display: flex;
-  gap: 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
   font-size: 1rem;
   color: #F2F2F2; // Primary text color for links
   

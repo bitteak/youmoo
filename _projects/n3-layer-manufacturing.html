@@ -1,0 +1,16 @@
+---
+layout: project
+title: N3 Layer Manufacturing
+date: 2026-10-14
+lang: en
+description: An interactive, 94-step exploration of FinFET device formation, contacts, and the M0–M16 wiring stack.
+stylesheet: /assets/css/n3-layer-manufacturing.css
+---
+
+<p>Explore how a chip takes shape, from silicon fins and transistor contacts to the M0–M16 metal stack. Step through 94 illustrated stages, or jump directly to a layer.</p>
+<p class="secondary project-note">A conceptual guide to an N3-style FinFET stack. Cross-sections are schematic and not to scale; they do not represent a foundry process recipe.</p>
+
+{% include projects/n3-layer-manufacturing.html %}
+
+<noscript><p>This interactive visualization needs JavaScript enabled to show the manufacturing steps.</p></noscript>
+<script src="{{ '/assets/js/n3-layer-manufacturing.js' | relative_url }}" defer></script>

@@ -1,0 +1,63 @@
+.project-page .project-note { font-size: .9rem; }
+#n3-fab-explorer {
+  --foreground: var(--text-color);
+  --background: var(--bg-color);
+  --border: var(--border-color);
+  --viz-series-1: #3182ce;
+  --viz-series-2: #38a89d;
+  --viz-series-3: #d49534;
+  --viz-series-4: #bf69b1;
+  --viz-series-5: #8864ca;
+  --viz-series-6: #de7655;
+  margin-top: 2rem;
+  padding-top: 1.5rem;
+  border-top: 1px solid var(--border);
+}
+#n3-fab-explorer h2 { margin: 0; line-height: 1.5; }
+#n3-fab-explorer .viz-row,
+#n3-fab-explorer .viz-controls { display: flex; flex-wrap: wrap; align-items: center; gap: .75rem; }
+#n3-fab-explorer .viz-row { justify-content: space-between; }
+#n3-fab-explorer .viz-badge { font-size: .8rem; color: var(--secondary-color); }
+#n3-fab-explorer .text-small { font-size: .85rem; }
+#n3-fab-explorer .text-muted { color: var(--secondary-color); }
+#n3-fab-explorer .tabular-nums { font-variant-numeric: tabular-nums; }
+#n3-fab-explorer .btn,
+#n3-fab-explorer .form-select {
+  font: inherit; font-size: .9rem; min-height: 44px; padding: .5rem .75rem;
+  border: 1px solid var(--border); border-radius: 6px;
+  color: var(--foreground); background: var(--background);
+}
+#n3-fab-explorer .btn { cursor: pointer; }
+#n3-fab-explorer .btn-primary { background: var(--foreground); color: var(--background); }
+#n3-fab-explorer .btn:disabled { opacity: .4; cursor: default; }
+#n3-fab-explorer .form-label { display: flex; align-items: center; gap: .5rem; min-width: 0; }
+#n3-fab-explorer .form-select { min-width: 0; max-width: 100%; }
+#n3-fab-explorer .progress { height: 4px; background: var(--border); border-radius: 4px; overflow: hidden; }
+#n3-fab-explorer .progress-bar { height: 100%; background: var(--foreground); }
+#n3-fab-explorer:focus-visible,
+#n3-fab-explorer :focus-visible { outline: 2px solid var(--viz-series-1); outline-offset: 4px; }
+@media (max-width: 480px) {
+  #n3-fab-explorer .form-label { flex-basis: 100%; }
+  #n3-fab-explorer .form-select { flex: 1; }
+}
+
+#n3-fab-explorer{color:var(--foreground);display:grid;gap:12px}
+#n3-fab-explorer h3{margin:0}
+#n3-fab-explorer #n3-drawing{min-width:0}
+#n3-fab-explorer #n3-scene{width:100%;display:block;overflow:hidden}
+#n3-fab-explorer #n3-scene text{fill:var(--foreground);font-size:12px;font-weight:400}
+#n3-fab-explorer #n3-caption{min-height:3.2em}
+#n3-fab-explorer #n3-reference{min-height:2.5em}
+#n3-fab-explorer .material-si{fill:var(--viz-series-3);fill-opacity:.24;stroke:var(--viz-series-3)}
+#n3-fab-explorer .material-oxide{fill:var(--viz-series-2);fill-opacity:.16;stroke:var(--border)}
+#n3-fab-explorer .material-metal{fill:var(--viz-series-1);fill-opacity:.8}
+#n3-fab-explorer .material-via{fill:var(--viz-series-4);fill-opacity:.8}
+#n3-fab-explorer .material-gate{fill:var(--viz-series-5);fill-opacity:.8}
+#n3-fab-explorer .material-resist{fill:var(--viz-series-6);fill-opacity:.5}
+#n3-fab-explorer .cavity{fill:var(--background)}
+#n3-fab-explorer .line{stroke:var(--foreground);stroke-width:1;fill:none}
+#n3-fab-explorer .minor{stroke:var(--border);stroke-width:1;fill:none}
+#n3-fab-explorer .move{transform-box:fill-box;transform-origin:center}
+#n3-fab-explorer .grow{transform-box:fill-box;transform-origin:bottom}
+#n3-fab-explorer .plate{transform-box:fill-box;transform-origin:left}
+@media(prefers-reduced-motion:reduce){#n3-fab-explorer *{animation:none!important;transition:none!important}}
