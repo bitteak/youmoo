@@ -80,7 +80,7 @@ Quantinuum 自己的说法是把这组结果作为 Apollo（通用容错机，20
 
 - **10 月 14 日** IonQ 宣布以最高 **13 亿美元**股票收购网络安全公司 Elisity，紧接着定价 **20 亿美元**股权融资（普通股 + 预资权证，单一机构买家，行权价 40 美元）。当天 IONQ −9.5%，QBTS −10.1%，QNT −10.2%，RGTI −8.6%
 - **10 月 16 日** 通胀数据超预期叠加稀释恐慌，IONQ −8.9%、QBTS −8.1%、QUBT −7.0%
-- **10 月 20 日** Barron's 报道 IBM 与 Rigetti 双双警告行业将迎来洗牌（[Barron's](https://www.barrons.com/)）
+- **10 月 20 日** Barron's 报道 IBM 与 Rigetti 双双警告行业将迎来洗牌（"Why IBM and Rigetti Warn of a Coming Shakeout in Quantum Stocks"）
 - 顺带被翻出来的老账：Motley Fool 统计过去五年（2021-10 至 2026-10）四家纯玩公司的内部人**净卖出 10.2 亿美元**——IonQ 5.77 亿、D-Wave 3.31 亿、Rigetti 0.83 亿、QUBT 0.34 亿（[TipRanks/BI](https://markets.businessinsider.com/news/stocks/ionq-rigetti-d-wave-insiders-sold-1-billion-more-than-they-bought-1036645371)）
 
 基本面并非没有东西：IonQ 二季度收入 8000 万美元、同比 **+287%**，2026 全年指引上调到 **2.8–2.9 亿美元**。但 Rigetti 季度收入不到 1000 万美元对上千亿市值这种搭配，撑不住估值。稀释 + 内部人减持 + 收入基数太小，三件事叠在一起，任何技术利好都会被当成出货窗口。
