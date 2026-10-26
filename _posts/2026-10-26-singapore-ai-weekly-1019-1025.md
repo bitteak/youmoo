@@ -129,7 +129,11 @@ Jobstreet by SEEK 10 月 22 日发布《AI Gauge》报告：新加坡招聘广�
 
 * 来源：[TechNode Global](https://technode.global/2026/10/23/jobstreet-seek-singapore-ai-skills-job-ad-demand-2026/) ｜ [Human Resources Director](https://www.hcamag.com/asia/specialisation/recruitment/job-ads-mentioning-ai-more-than-triple-in-singapore/594530)
 
-同一周还有两组互为张力的数据：教育部与 IMDA 推出面向 3,000 名理工学院/ITE/大学学生的**一年期实习**计划，明确是为了对冲 AI 对入门级岗位的冲击（10 月 19 日）；而市场上 AI 相关岗位的薪酬上限被报到 S$350K/年。**入门级在收缩、资深 AI 工程在溢价**——这是同一枚硬币的两面。
+同一周还有两组互为张力的数据：10 月 19 日，数码发展及新闻部高级政务部长陈杰豪（Tan Kiat How）在 SCS TechConnect 2026 上宣布 **TIP Alliance+ Bridge2Tech**——未来三年提供 **3,000 个一年期（10–12 个月）实习**名额，覆盖 ITE、理工学院与自治大学的信息与数字技术学生，由院校与企业共同设计，IMDA 为每名符合条件的实习生每月共担最高 S$1,000 成本；同时把 AI、云、网络安全的技能培训资助提高到最高 90%，Government Tech Domain Pathway 将于 2026 年 11 月开放申请。政策语言很直白：对冲 AI 对入门级岗位的冲击。而市场上，Robert Walters / PERSOL / Hays 的薪酬口径拼出的曲线是：应届 AI 岗位 S$70K–90K，AI 工程师 S$72K–200K，顶尖研究员与负责人接近 **S$350K**；AI 岗位薪资过去一年涨了 15–25%。**入门级在被"实习化"、资深 AI 工程在溢价**——这是同一枚硬币的两面。
+
+* 来源：[Vulcan Post 薪酬汇总](https://vulcanpost.com/913779/singapore-ai-jobs-pay)
+
+* 来源：[IMDA 新闻稿](https://www.imda.gov.sg/resources/press-releases-factsheets-and-speeches/singapore-strengthens-pathways-from-education-to-tech-careers) ｜ [CNA](https://www.channelnewsasia.com/singapore/tech-ai-internships-jobs-ite-polytechnic-university-students-6471296) ｜ [The Straits Times](https://www.straitstimes.com/singapore/year-long-internships-offered-to-3000-tertiary-students-to-counter-ai-threat-to-entry-level-jobs)
 
 ## 技术活动（10.26–11.1）
 
