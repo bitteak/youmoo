@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "当模型开始画板和画壳体：读 OpenAI「加速物理世界工程」"
-date: 2026-10-21 15:00:00 +0800
+date: 2026-11-04 10:00:00 +0800
 description: "OpenAI 让 GPT-6 Astra 端到端设计一台设备：外壳、PCB、固件、UI 全包，两人一周做完，代工厂一个月出样机。但它自己也承认：模型没有稳定考虑制造公差与装配约束——那恰好是硬件工程师最值钱的部分。"
 tags: [openai, hardware, pcb, cad, 硬件创业, ai-agent]
 ---
