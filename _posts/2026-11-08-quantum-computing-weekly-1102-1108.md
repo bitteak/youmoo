@@ -8,17 +8,20 @@ tags: [quantum-computing, 量子计算, 周报]
 
 > 窗口：2026-11-02 → 2026-11-08。数据源：Layer 1 采集器 `~/.hermes/data/quantum_feed.json`（本周 100 条）+ 公司新闻稿 / arXiv / Yahoo Finance 直查。
 
-**本周主线：古典算力正式进入纠错机柜。** 三件事指向同一个结构性变化——ORNL 把 AMD 的 MI355X 和 120 比特 Nighthawk 放进同一个低延迟环境（11/5），IBM 在芝加哥上线 Nighthawk r2 并把卖点从"比特数"换成"每秒 10 万次电路"（11/6），Quantinuum 把逻辑保真度推到 99.9995% 但同时报出研发费用 $97.5M（11/5）。量子计算的瓶颈正在从"造得出来吗"转向"喂得动吗"——而喂它的，是 GPU、是控制电子学、是每秒十万次的重复率。
+**本周主线：古典算力正式进入纠错机柜。** 三件事指向同一个结构性变化——ORNL 把 AMD 的 MI355X 和 120 比特 Nighthawk 放进同一个低延迟环境（11/5），IBM 在芝加哥上线 Nighthawk r2 并把卖点从"比特数"换成"每秒 10 万次电路"（11/6），Quantinuum 财报把两周前的 Λ=12 换算成 $97.5M/季的研发账单（11/5）。量子计算的瓶颈正在从"造得出来吗"转向"喂得动吗"——而喂它的，是 GPU、是控制电子学、是每秒十万次的重复率。
 
 ## ⚠️ BREAKING
 
-- **Quantinuum Helios 逻辑保真度 99.9995%（10 月达成，11/5 财报电话披露）**：每百万次逻辑操作 5 个错误，公司称世界纪录，且纠错开销低于竞争路线。这是自 Google Willow 之后最值得认真对待的纠错数字——因为它发生在**商用系统**上而不是实验装置上，且直接服务于 Apollo（2029 容错）路线图。
 - **PSI 用未公开的 Anthropic 模型三天证明 Aaronson–Ambainis 猜想（11/6）**：18 年悬案，Lean 4.33 内核逐行验证通过，论文与形式化代码已公开，但未经同行评议。这一步把"量子加速的边界"从猜想变成定理——**无结构随机输入上，量子最多只能多项式加速**。
 - **量子股单日集体异动（11/6）**：QNT **+26.0%** 至 $37.57、IONQ **+23.4%** 至 $32.62、RGTI **+18.8%**、QBTS **+18.0%**、QUBT **+12.4%**，而 SPY 仅 +0.3%。触发点明确：IonQ 与 Quantinuum 同日发布超预期 Q3 并上调全年指引。
 
+> **口径勘误**：Quantinuum 的 Helios **99.9995% 逻辑保真度 / Λ=12** 是 **10/19** 的成果，本系列 **2026-10-25 期已作为 BREAKING 报过**。本周（11/5 财报电话）只是把它装进财务口径并确认 Apollo 路径。不再重复计入本期 BREAKING。
+
 ## 🔬 技术突破
 
-**Quantinuum：99.9995% 是怎么来的。** Q3 收入 **$9.1M（+233% YoY）**，非 GAAP 毛利率 **74.6%**（同比 +853 bps），bookings **$98M**（含 Oracle 协议，公司史上最大云合同），现金 **$19.4 亿**、无负债。研发费用 **$97.5M/季**。全年指引上调至 **$31–34M**（原 $28–32M），2027 指引维持 >100% 增长。10 月在 Helios 上实现的 99.9995% 逻辑保真度，按公司说法"显著降低了 Apollo 2029 所需的硬件与纠错风险"。另有 **$1 亿** 商务部 CHIPS award。([财报](https://ir.quantinuum.com/static-files/360dab95-056d-4d9f-9313-2a014e3cc16c)、[电话会](https://fool.com/earnings/call-transcripts/2026/11/07/quantinuum-qnt-q3-2026-earnings-call-transcript))
+**Quantinuum Q3：把 10 月的 Λ=12 装进财务框架（11/5）。** 收入 **$9.1M（+233% YoY）**，非 GAAP 毛利率 **74.6%**（同比 +853 bps），bookings **$98M**（含 Oracle 协议，公司史上最大云合同），现金 **$19.4 亿**、无负债。研发费用 **$97.5M/季**（约收入的 10.7 倍）。全年指引上调至 **$31–34M**（原 $28–32M），2027 指引维持 >100% 增长。另有 **$1 亿** 商务部 CHIPS award。管理层口径：Helios 的结果"显著降低了 Apollo（2029 通用容错）所需的硬件与纠错风险"。([财报](https://ir.quantinuum.com/static-files/360dab95-056d-4d9f-9313-2a014e3cc16c)、[电话会](https://fool.com/earnings/call-transcripts/2026/11/07/quantinuum-qnt-q3-2026-earnings-call-transcript))
+
+按本系列 10-25 期立下的规矩（看纠错成果先找 **Λ** 与**门级**而非内存级错误率）复述一遍当时的硬数字，避免财报稿把口径模糊掉：三角 color code，d=3/5/7，内存/闲置口径逻辑错误率 **5 (+4/−2)×10⁻⁶**、**Λ=12 (+3/−2)**；**门级口径**（d=5 每个逻辑双比特 Clifford）**7 (+3/−3)×10⁻⁵**、**Λ=9 (+3/−8)**——与标题数字差一个数量级。对照 IBM Nighthawk r2 云上 surface code 的 **Λ=1.68/1.85**，这才是"大多数硬件的真实水平"。
 
 **IBM 芝加哥：Nighthawk r2 的真实卖点是吞吐不是比特。** 11/6 在芝大 Hyde Park Labs 上线 IBM Quantum System Two，云上标识 `ibm_chicago`，作为 National Quantum Algorithm Center 的锚定系统，最终迁往 IQMP（前 US Steel South Works 地块）。处理器 **Nighthawk r2**：**120 个可编程比特 + 218 个可调耦合器 + 120 个独立高速复位元件 = 458 个物理量子元件**（注意 458 不是电路宽度）；方形晶格、每个比特连四个最近邻；**>100,000 电路/秒，约为 Heron 的 25 倍**，初始化误差同步降约 25 倍，门保真度维持 Heron 级。([IBM Newsroom](https://newsroom.ibm.com/2026-11-06-ibm-unveils-its-most-advanced-quantum-computer-in-chicago,-marking-a-milestone-for-illinoiss-quantum-future)、[UChicago](https://news.uchicago.edu/story/ibms-most-advanced-quantum-computer-unveiled-uchicagos-hyde-park-labs))
 
