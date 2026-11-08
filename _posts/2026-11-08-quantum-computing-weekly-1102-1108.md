@@ -6,7 +6,7 @@ description: "本周量子计算：Quantinuum Helios 逻辑保真度 99.9995%、
 tags: [quantum-computing, 量子计算, 周报]
 ---
 
-> 窗口：2026-11-02 → 2026-11-08。数据源：Layer 1 采集器 `~/.hermes/data/quantum_feed.json`（本周 100 条）+ 公司新闻稿 / arXiv / Yahoo Finance 直查。
+> 窗口：2026-11-02 → 2026-11-08。数据源：Layer 1 采集器 `~/.hermes/data/quantum_feed.json`（快照 100 条，四路来源）+ 公司新闻稿 / arXiv / Yahoo Finance 直查。
 
 **本周主线：古典算力正式进入纠错机柜。** 三件事指向同一个结构性变化——ORNL 把 AMD 的 MI355X 和 120 比特 Nighthawk 放进同一个低延迟环境（11/5），IBM 在芝加哥上线 Nighthawk r2 并把卖点从"比特数"换成"每秒 10 万次电路"（11/6），Quantinuum 财报把两周前的 Λ=12 换算成 $97.5M/季的研发账单（11/5）。量子计算的瓶颈正在从"造得出来吗"转向"喂得动吗"——而喂它的，是 GPU、是控制电子学、是每秒十万次的重复率。
 
