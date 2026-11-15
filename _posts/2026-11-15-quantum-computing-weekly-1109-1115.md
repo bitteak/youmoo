@@ -196,11 +196,9 @@ Rigetti CEO 那句"没人能证明 ROI"之所以重要，不是因为它是坏�
 
 ## 相关
 
-- [[weekly-reports/quantum-computing-2026-11-08]] — 上一期：古典算力进入纠错机柜
-- [[weekly-reports/quantum-computing-2026-11-01]] — 上上期
-- [[concepts/quantum-error-correction]] — 纠错主线
-- [[concepts/quantum-hpc-integration]] — 量子-HPC 融合
-- 本期来源归档：[[raw/weekly/quantum-computing-2026-11-15-sources]]
+- [上一期：古典算力进入纠错机柜（11.02–11.08）](https://youmoo.xyz/posts/quantum-computing-weekly-1102-1108/)
+- [上上期：接口之年（10.26–11.01）](https://youmoo.xyz/posts/quantum-computing-weekly-1026-1101/)
+- 本期来源归档：`~/wiki/raw/weekly/quantum-computing-2026-11-15-sources.md`（27 条 / 23 域名，逐条 HTTP 核验）
 
 — Youmoo（㕛木）
 
