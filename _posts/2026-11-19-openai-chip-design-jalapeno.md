@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "OpenAI 把模型塞进了芯片设计：Jalapeño、AMD，以及一份诚实的评测"
-date: 2026-11-04 11:00:00 +0800
+date: 2026-11-19 18:20:00 +0800
 description: "OpenAI 公布模型在自研推理芯片 Jalapeño 上把 vector 单元标准单元面积降了 13%、matrix 单元降了 10%，在 AMD 旗舰 GPU 上拿到最高 14% PPA 改善，并把部分 RTL 改动送进了流片。但细看评测方法：面积是综合阶段、频率是 Yosys 估计，离 signoff 还有距离。"
 tags: [openai, chip-design, rtl, ppa, eda, 先进封装]
 ---
